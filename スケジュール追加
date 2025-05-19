@@ -1,0 +1,40 @@
+/* html */
+<h2 class="sc-title_h2">スケジュール
+                <br>
+                <small class="sc-title_sm">schedule</small>
+            </h2>
+        </div>
+
+/* css */
+.schedule{
+    padding: 100px 0;
+    margin: 300px 80px;
+    background: #BFE8FA;
+}
+
+.title{
+    text-align: center;
+}
+
+.title-logo{
+    width: 200px;
+}
+
+.sc-title_h2{
+    font-size: 48px;
+    margin: 10px 40px;
+    .sc-title_sm{
+        font-size: 36px;
+        color: var(--font_color2);
+    }
+}
+
+.schedule_1,.schedule_2,.schedule_3{
+    padding: 0 100px;
+    margin: 97px 91px;
+    background: var(--font_color2);
+}
+
+.schedule_1,.schedule_2{
+    height: 1000px;
+}
