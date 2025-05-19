@@ -1,0 +1,17 @@
+.title-logo{
+    width: 180px;
+    padding-left: 40%;
+}
+.schedule{
+    padding: 50px 0;
+    margin: 0 80px;
+    background: #BFE8FA;
+}
+.schedule_1,.schedule_2,.schedule_3{
+    padding: 0 100px;
+    margin: 97px 91px;
+    background: #fff;
+}
+.schedule_1,.schedule_2{
+    height: 1000px;
+}
