@@ -1,0 +1,245 @@
+html--------------------------------------------
+<section class="schedule">
+        <div class="title">
+            <h2 class="sc-title_h2">スケジュール
+                <br>
+                <small class="sc-title_sm">schedule</small>
+            </h2>
+        </div>
+        <!--cssで制作中-->
+        
+        <div class="time">
+            <h3 class="sc-h3">1日目</h3>
+            <ul class="time-schedule1">
+                <li>
+                    <span class="time">13:15</span>
+                    <div class="sch_box">
+                        <p class="sch_title">小田原駅集合</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">13:35</span>
+                    <div class="sch_box">
+                        <p class="sch_title">箱根バス乗車</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">15:00</span>
+                    <div class="sch_box">
+                        <p class="sch_title">研修所到着</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">15:30</span>
+                    <div class="sch_box"><p class="sch_title">サイト制作タイム</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">17:30</span>
+                    <div class="sch_box"><p class="sch_title">BBQ準備</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">18:30</span>
+                    <div class="sch_box">
+                        <p class="sch_title">夕食(BBQ)</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">19:30</span>
+                    <div class="sch_box"><p class="sch_title">お風呂</p>
+                        <p class="sch_tx">
+                            (女子)19:30〜20:30 <br>
+                            (男子)20:30〜21:15
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">23:00</span>
+                    <div class="sch_box">
+                        <p class="center_sch_title">自由時間</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--cssで制作中-->
+
+
+        <div class="time">
+            <h3 class="sc-h3">2日目</h3>
+            <ul class="time-schedule1">
+                <li>
+                    <span class="time">7:00</span>
+                    <div class="sch_box">
+                        <p class="center">起床</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">8:00</span>
+                    <div class="sch_box">
+                        <p class="center">朝食</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">9:00</span>
+                    <div class="sch_box">
+                        <p class="sch_title">サイト制作タイム</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">12:00</span>
+                    <div class="sch_box">
+                        <p class="center">昼食</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">13:00</span>
+                    <div class="sch_box">
+                        <p class="sch_title">サイト制作タイム</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">16:00</span>
+                    <div class="sch_box">
+                        <p class="sch_title">わいわいタイム</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">18:00</span>
+                    <div class="sch_box">
+                        <p class="center">夕食</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">19:30</span>
+                    <div class="sch_box"><p class="sch_title">お風呂</p>
+                        <p class="sch_tx">
+                            (女子)19:30〜20:30 <br>
+                            (男子)20:30〜21:15
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">23:00</span>
+                    <div class="sch_box">
+                        <p class="center_sch_title">自由時間</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="time">
+            <h3 class="sc-h3">3日目</h3>
+            <ul class="time-schedule1">
+                <li>
+                    <span class="time">7:00</span>
+                    <div class="sch_box">
+                        <p class="center">起床</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">8:00</span>
+                    <div class="sch_box">
+                        <p class="center">朝食</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="time">10:00</span>
+                    <div class="sch_box">
+                        <p class="center_sch_title">自由解散</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+html--------------------------------------------
+
+
+css--------------------------------------
+h3{
+    padding:30px 0 20px 70px;
+    font-size: 25px;
+}
+.schedule{
+    padding: 30px 0;
+    margin: 0 120px;
+    background: #BFE8FA;
+    border-radius: 12px;
+}
+
+.title{
+    text-align: center;
+}
+
+.sc-title_h2{
+    font-size: 48px;
+    margin: 10px 90px;
+    .sc-title_sm{
+        font-size: 36px;
+        color: var(--font_color2);
+    }
+}
+
+/*スケジュールcssで製作中の方*/
+.time{
+    width: 90%;
+    background-color: #ffffff;
+    margin-top: 90px;
+    margin-left: 65px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.time-schedule1 {
+    list-style: none;
+    margin: 0 auto 2em 6em;
+    padding-left: 30px;
+    border-left: 6px solid #BFE8FA;
+    box-sizing: border-box;
+}
+
+.time-schedule1 .sch_box {
+    display: inline-block;
+    width: 80%;
+    margin: 30px 0 30px 90px;
+    padding: 15px 10px 15px 10px;
+    vertical-align: middle;
+    background: #dde7ec;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.time-schedule1 .sch_box p{
+    margin-left: 38%;
+    font-size: 25px;
+
+}
+.time-schedule1 span.time {
+    width: 80px;
+    display: inline-block;
+    margin-left: -8em;
+    padding: 30px 10px 1px 20px;
+    margin-top: 15px;
+    vertical-align: top;
+    position: relative;
+    text-align: right;
+    box-sizing: border-box;
+}
+.time-schedule1 span.time::after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    top: 30px;
+    background: #BFE8FA;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+div.sch_box .center{
+    margin-left: 40%;
+    letter-spacing: 3em;
+}
+.center_sch_title{
+    letter-spacing: 20px;
+}
+css---------------------------
+
