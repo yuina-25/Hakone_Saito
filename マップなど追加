@@ -1,0 +1,42 @@
+/* css */
+.room_p,.bath_p{
+    text-align: center;
+    margin: 200px 80px 0 130px;
+}
+
+.facility_p{
+    margin: 100px 82px;
+}
+
+/* html */
+<div class="room">
+            <img class="room_img" src="img/room.png" alt="部屋の写真">
+                <p class="room_p">和室が3部屋あり、自然に囲まれた静かな環境で、
+                    グループごとにゆったりとくつろぎながら快適に過ごせます。</p>
+        </div>
+
+        <div class="bath">
+            <img class="bath_img" src="img/bath.png" alt="風呂の写真">
+                <p class="bath_p">石造りの広々とした大浴場は、合宿の疲れを癒すのに最適な空間です。
+                    お風呂は1つのため、男女やグループごとに時間を分けて利用します。</p>
+        </div>
+
+        <div class="facility_map">
+            <div class="access-d">
+            <h2 class="ac-title_h2">施設内マップ</h2>
+            <img src="" alt="施設内マップ" class="facility_img">
+            </div>
+
+<div class="access-d">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <h2 class="ac-title_h2">周辺地図</h2>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13034.978518960841!2d138.
+                    98993192084927!3d35.237726565550986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019
+                    9ed7f0d26ba1%3A0xde74c9c94e29fd70!2z44CSMjUwLTA1MjIg56We5aWI5bed55yM6Laz5p-E5LiL6YOh566x5qC5
+                    55S65YWD566x5qC577yR77yV77yZ4oiS77yV77yX!5e0!3m2!1sja!2sjp!4v1747631462303!5m2!1sja!2sjp" 
+                    style="border:0; width: 1351px; height: 740px;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br>
+                    <small class="access_sm">〒252-0522 神奈川県足柄下部箱根元箱根159-57</small>
+                </div>
